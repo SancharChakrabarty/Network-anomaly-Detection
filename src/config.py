@@ -14,7 +14,7 @@ DATASET_PATH = os.environ.get(
     "DATASET_PATH", "/content/drive/MyDrive/iscxids2012-master"
 )
 RESULTS_DIR = os.environ.get(
-    "RESULTS_DIR", "/content/drive/MyDrive/Results"
+    "RESULTS_DIR", "./results"
 )
 
 os.makedirs(RESULTS_DIR, exist_ok=True)
